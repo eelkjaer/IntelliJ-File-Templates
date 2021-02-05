@@ -40,4 +40,9 @@ public class ${NAME}Facade {
         em.close();
       }
   }
+    
+    public static void main(String[] args) {
+        emf = EMF_Creator.createEntityManagerFactory();
+        ${NAME}Facade fe = get${NAME}Facade(emf);
+    }
 }

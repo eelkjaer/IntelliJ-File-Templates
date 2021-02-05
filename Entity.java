@@ -30,4 +30,8 @@ public class ${NAME} implements Serializable {
   public void setId(Long id) {
     this.id = id;
   }
+    
+    /* Default variable that */
+    @Column(name="${CULUMN_NAME}", length=75, nullable=false, unique=false)
+    private String ${VARIABLE_NAME};
 }
