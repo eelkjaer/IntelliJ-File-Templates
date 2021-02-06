@@ -32,6 +32,6 @@ public class ${NAME} implements Serializable {
   }
     
     /* Default variable that */
-    @Column(name="${CULUMN_NAME}", length=75, nullable=false, unique=false)
-    private String ${VARIABLE_NAME};
+    // @Column(name="put_lowercase_name_here", length=75, nullable=false, unique=false)
+    // private String putNameHere;
 }
